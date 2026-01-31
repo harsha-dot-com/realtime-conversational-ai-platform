@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+*.sqlite3
+*.db
+*.log
+*.pot
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Alembic
+alembic.ini
+*.pyc
+migrations/
+
+# Node / React
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.dockerignore
+Dockerfile
+docker-compose.override.yml
+
+# Others
+.idea/
+*.swp
+*.swo
